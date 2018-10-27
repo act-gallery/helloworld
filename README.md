@@ -29,7 +29,7 @@ Once application has been started, you can open browser and locate to `http://lo
 
 ## Understanding the Demo app
 
-The demo application contains a single Java class `gallery.helloworld.HelloWorldApp`
+The demo application contains a single Java class `gallery.helloworld.AppEntry`
 
 ```java
 public class HelloWorldApp {
@@ -49,7 +49,7 @@ The main method call `act.Act.start()` method to bootstrap ActFramework and load
 
 ### Action handler
 
-The `HelloWorldApp` class contains one action handler method:
+The `AppEntry` class contains one action handler method:
 
 ```java
     @GetAction
@@ -63,7 +63,7 @@ Parameter `String who` tells ActFramework that if there is a request parameter n
 
 The `@Output` annotation before `String who` tells ActFramework to put the value of `who` to the template using name `who`.
 
-The template `home.html` is located at `resources/rythm/demo/helloworld/HelloWorldApp`. Literally the path is corresponding to the package/class/method hierarchy, based in `resources/rythm` template root.
+The template `home.html` is located at `resources/rythm/demo/helloworld/AppEntry`. Literally the path is corresponding to the package/class/method hierarchy, based in `resources/rythm` template root.
  
 The template is created using [Rythm Engine](http://rythmengine.org). For more information about Rythm engine, please visit the official site at http://rythmenigne.org
  

@@ -34,7 +34,7 @@ import org.osgl.mvc.annotation.GetAction;
  * in the browser!
  */
 @SuppressWarnings("unused")
-public class HelloWorldApp extends Controller.Util {
+public class AppEntry extends Controller.Util {
 
     /**
      * Home page - display `Hello ${who}` in the page

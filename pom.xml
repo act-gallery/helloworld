@@ -34,7 +34,7 @@
   </parent>
 
   <properties>
-    <app.entry>gallery.helloworld.HelloWorldApp</app.entry>
+    <app.entry>gallery.helloworld.AppEntry</app.entry>
   </properties>
 
   <dependencies>
