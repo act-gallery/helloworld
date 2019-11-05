@@ -43,7 +43,7 @@ public class AppEntry extends Controller.Util {
      *      A URL path parameter specify who to say `Hello`.
      *      Default value is `World`
      */
-    @GetAction("/{who}")
+    @GetAction("/hi/{who}")
     public void home(@DefaultValue("World") @Output String who) {
     }
 
