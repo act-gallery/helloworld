@@ -23,8 +23,14 @@ package gallery.helloworld;
 import act.Act;
 import act.controller.Controller;
 import act.inject.DefaultValue;
+import act.util.AdaptiveBean;
+import act.util.AdaptiveBeanBase;
 import act.util.Output;
 import org.osgl.mvc.annotation.GetAction;
+import org.osgl.mvc.annotation.PostAction;
+import org.osgl.util.C;
+
+import java.util.List;
 
 /**
  * The simple hello world app.
